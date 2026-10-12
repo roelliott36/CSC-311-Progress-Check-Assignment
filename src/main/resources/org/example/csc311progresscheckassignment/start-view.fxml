@@ -20,26 +20,26 @@
       <Pane prefHeight="470.0" prefWidth="667.0">
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9d7e4" height="31.0" layoutX="28.0" layoutY="80.0" stroke="BLACK" strokeType="INSIDE" width="435.0" />
-            <Rectangle id="cardOneSlot" arcHeight="5.0" arcWidth="5.0" fill="#c9d7e4" height="200.0" layoutX="14.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
-            <Rectangle id="cardTwoSlot" arcHeight="5.0" arcWidth="5.0" fill="#c9d7e4" height="200.0" layoutX="182.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
-            <Rectangle id="cardThreeSlot" arcHeight="5.0" arcWidth="5.0" fill="#c9d7e4" height="200.0" layoutX="354.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
-            <Rectangle id="cardFourSlot" arcHeight="5.0" arcWidth="5.0" fill="#c9d7e4" height="200.0" layoutX="521.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
-            <TextField id="displayExpression" editable="false" layoutX="163.0" layoutY="80.0" prefHeight="31.0" prefWidth="305.0" promptText="Your Formula Will Display Here" />
-            <Button id="reshuffleButton" layoutX="573.0" layoutY="365.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="80.0" text="RESHUFFLE" />
-            <Label id="entryLabel" layoutX="32.0" layoutY="85.0" prefHeight="21.0" prefWidth="132.0" text="      YOU ENTERED:" />
+            <Rectangle fx:id="cardOneSlot" arcHeight="5.0" arcWidth="5.0" fill="#c9d7e4" height="200.0" layoutX="14.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
+            <Rectangle fx:id="cardTwoSlot" arcHeight="5.0" arcWidth="5.0" fill="#c9d7e4" height="200.0" layoutX="182.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
+            <Rectangle fx:id="cardThreeSlot" arcHeight="5.0" arcWidth="5.0" fill="#c9d7e4" height="200.0" layoutX="354.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
+            <Rectangle fx:id="cardFourSlot" arcHeight="5.0" arcWidth="5.0" fill="#c9d7e4" height="200.0" layoutX="521.0" layoutY="135.0" stroke="BLACK" strokeType="INSIDE" width="132.0" />
+            <TextField fx:id="displayExpression" editable="false" layoutX="163.0" layoutY="80.0" prefHeight="31.0" prefWidth="305.0" promptText="Your Formula Will Display Here" />
+            <Button fx:id="reshuffleButton" layoutX="573.0" layoutY="365.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="80.0" text="RESHUFFLE" />
+            <Label fx:id="entryLabel" layoutX="32.0" layoutY="85.0" prefHeight="21.0" prefWidth="132.0" text="      YOU ENTERED:" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#c9d7e4" height="31.0" layoutX="31.0" layoutY="366.0" stroke="BLACK" strokeType="INSIDE" width="435.0" />
-            <Label id="expressionLabel" layoutX="34.0" layoutY="370.0" prefHeight="21.0" prefWidth="132.0" text="  Enter an Expression:" />
-            <TextField id="enterExpression" layoutX="158.0" layoutY="366.0" prefHeight="31.0" prefWidth="313.0" promptText="Enter the Expression Here" />
-            <Button id="themeButton" layoutX="521.0" layoutY="80.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="132.0" text="CHANGE THEME" />
-            <Button id="verifyButton" layoutX="486.0" layoutY="365.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="80.0" text="VERIFY" />
-            <Label id="pickingFirstCardText" disable="true" layoutX="38.0" layoutY="227.0" text="Picking a Card..." />
-            <Label id="pickingSecondCardText" disable="true" layoutX="207.0" layoutY="227.0" text="Picking a Card..." />
-            <Label id="pickingThirdCardText" disable="true" layoutX="378.0" layoutY="227.0" text="Picking a Card..." />
-            <Label id="pickingFourthCardText" disable="true" layoutX="545.0" layoutY="227.0" text="Picking a Card..." />
-            <ImageView id="cardOneDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="21.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView id="cardTwoDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="190.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView id="cardThreeDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="361.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView id="cardFourDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="528.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
+            <Label fx:id="expressionLabel" layoutX="34.0" layoutY="370.0" prefHeight="21.0" prefWidth="132.0" text="  Enter an Expression:" />
+            <TextField fx:id="enterExpression" layoutX="158.0" layoutY="366.0" prefHeight="31.0" prefWidth="313.0" promptText="Enter the Expression Here" />
+            <Button fx:id="themeButton" layoutX="521.0" layoutY="80.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="132.0" text="CHANGE THEME" />
+            <Button fx:id="verifyButton" layoutX="486.0" layoutY="365.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="80.0" text="VERIFY" />
+            <Label fx:id="pickingFirstCardText" disable="true" layoutX="38.0" layoutY="227.0" text="Picking a Card..." />
+            <Label fx:id="pickingSecondCardText" disable="true" layoutX="207.0" layoutY="227.0" text="Picking a Card..." />
+            <Label fx:id="pickingThirdCardText" disable="true" layoutX="378.0" layoutY="227.0" text="Picking a Card..." />
+            <Label fx:id="pickingFourthCardText" disable="true" layoutX="545.0" layoutY="227.0" text="Picking a Card..." />
+            <ImageView fx:id="cardOneDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="21.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cardTwoDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="190.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cardThreeDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="361.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="cardFourDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="528.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
          </children>
       </Pane>
    </children>
