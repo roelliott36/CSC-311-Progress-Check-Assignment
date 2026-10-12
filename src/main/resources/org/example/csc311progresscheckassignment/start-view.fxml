@@ -136,6 +136,7 @@
                     text="CHANGE THEME"/>
 
             <Button fx:id="verifyButton"
+                    onAction="#verifyExpression"
                     layoutX="486.0"
                     layoutY="365.0"
                     mnemonicParsing="false"
