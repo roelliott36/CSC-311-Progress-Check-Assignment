@@ -32,14 +32,15 @@
             <TextField id="enterExpression" layoutX="158.0" layoutY="366.0" prefHeight="31.0" prefWidth="313.0" promptText="Enter the Expression Here" />
             <Button id="themeButton" layoutX="521.0" layoutY="80.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="132.0" text="CHANGE THEME" />
             <Button id="verifyButton" layoutX="486.0" layoutY="365.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="80.0" text="VERIFY" />
-            <Label id="pickingFirstCardText" layoutX="38.0" layoutY="227.0" text="Picking a Card..." visible="false" />
-            <Label id="pickingSecondCardText" layoutX="207.0" layoutY="227.0" text="Picking a Card..." visible="false" />
-            <Label id="pickingThirdCardText" layoutX="378.0" layoutY="227.0" text="Picking a Card..." visible="false" />
-            <Label id="pickingFourthCardText" layoutX="545.0" layoutY="227.0" text="Picking a Card..." visible="false" />
+            <Label id="pickingFirstCardText" layoutX="38.0" layoutY="227.0" text="No card" />
+            <Label id="pickingSecondCardText" layoutX="207.0" layoutY="227.0" text="No card" />
+            <Label id="pickingThirdCardText" layoutX="378.0" layoutY="227.0" text="No card" />
+            <Label id="pickingFourthCardText" layoutX="545.0" layoutY="227.0" text="No card" />
             <ImageView id="cardOneDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="21.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true" />
-            <ImageView id="cardTwoDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="190.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView id="cardTwoDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="189.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true" />
             <ImageView id="cardThreeDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="361.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true" />
             <ImageView id="cardFourDisplay" fitHeight="182.0" fitWidth="118.0" layoutX="528.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
+            <Button id="startButton" layoutX="263.0" layoutY="14.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="142.0" text="START!" />
          </children>
       </Pane>
    </children>
