@@ -28,6 +28,15 @@
 
          <children>
 
+            <Button fx:id="startButton"
+                    onAction="#startGame"
+                    layoutX="286.0"
+                    layoutY="415.0"
+                    mnemonicParsing="false"
+                    prefHeight="31.0"
+                    prefWidth="95.0"
+                    text="START"/>
+
             <Rectangle fx:id="expressionDisplayBar"
                        styleClass="section-bar"
                        arcHeight="5.0"
@@ -135,6 +144,7 @@
                     text="VERIFY"/>
 
             <Button fx:id="reshuffleButton"
+                    onAction="#reshuffleCards"
                     layoutX="573.0"
                     layoutY="365.0"
                     mnemonicParsing="false"
