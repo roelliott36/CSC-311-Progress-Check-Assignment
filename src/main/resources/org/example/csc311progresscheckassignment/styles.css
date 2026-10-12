@@ -1,0 +1,185 @@
+
+/* General styling */
+
+.game-pane {
+    -fx-background-color: transparent;
+}
+
+.section-bar {
+    -fx-stroke-width: 1.5;
+}
+
+.card-slot {
+    -fx-stroke-width: 1.5;
+}
+
+.button {
+    -fx-background-radius: 5;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-text-fill: #222222;
+    -fx-prompt-text-fill: #777777;
+    -fx-border-width: 1.5;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.label {
+    -fx-font-size: 12px;
+}
+
+
+/* RED THEME */
+
+.theme-red {
+    -fx-background-color: #FFF1F0;
+}
+
+.theme-red .game-pane {
+    -fx-background-color: #FFF1F0;
+}
+
+.theme-red .section-bar {
+    -fx-fill: #F4B6B6;
+    -fx-stroke: #B71C1C;
+}
+
+.theme-red .card-slot {
+    -fx-fill: #FADADA;
+    -fx-stroke: #B71C1C;
+}
+
+.theme-red .button {
+    -fx-background-color: #B71C1C;
+    -fx-text-fill: white;
+}
+
+.theme-red .button:hover {
+    -fx-background-color: #D32F2F;
+}
+
+.theme-red .text-field {
+    -fx-border-color: #B71C1C;
+}
+
+.theme-red .label {
+    -fx-text-fill: #3A2020;
+}
+
+
+/* GREEN THEME */
+
+.theme-green {
+    -fx-background-color: #F1F8E9;
+}
+
+.theme-green .game-pane {
+    -fx-background-color: #F1F8E9;
+}
+
+.theme-green .section-bar {
+    -fx-fill: #AED6A7;
+    -fx-stroke: #2E7D32;
+}
+
+.theme-green .card-slot {
+    -fx-fill: #DCEFD8;
+    -fx-stroke: #2E7D32;
+}
+
+.theme-green .button {
+    -fx-background-color: #2E7D32;
+    -fx-text-fill: white;
+}
+
+.theme-green .button:hover {
+    -fx-background-color: #1B5E20;
+}
+
+.theme-green .text-field {
+    -fx-border-color: #2E7D32;
+}
+
+.theme-green .label {
+    -fx-text-fill: #203A22;
+}
+
+
+/* BLUE THEME */
+
+.theme-blue {
+    -fx-background-color: #EEF5FF;
+}
+
+.theme-blue .game-pane {
+    -fx-background-color: #EEF5FF;
+}
+
+.theme-blue .section-bar {
+    -fx-fill: #B6D0EE;
+    -fx-stroke: #2457A7;
+}
+
+.theme-blue .card-slot {
+    -fx-fill: #DCEAFB;
+    -fx-stroke: #2457A7;
+}
+
+.theme-blue .button {
+    -fx-background-color: #2457A7;
+    -fx-text-fill: white;
+}
+
+.theme-blue .button:hover {
+    -fx-background-color: #173D7A;
+}
+
+.theme-blue .text-field {
+    -fx-border-color: #2457A7;
+}
+
+.theme-blue .label {
+    -fx-text-fill: #20334D;
+}
+
+
+/* YELLOW THEME */
+
+.theme-yellow {
+    -fx-background-color: #FFFBE6;
+}
+
+.theme-yellow .game-pane {
+    -fx-background-color: #FFFBE6;
+}
+
+.theme-yellow .section-bar {
+    -fx-fill: #F1D96D;
+    -fx-stroke: #806000;
+}
+
+.theme-yellow .card-slot {
+    -fx-fill: #FFF1B8;
+    -fx-stroke: #806000;
+}
+
+.theme-yellow .button {
+    -fx-background-color: #806000;
+    -fx-text-fill: white;
+}
+
+.theme-yellow .button:hover {
+    -fx-background-color: #624900;
+}
+
+.theme-yellow .text-field {
+    -fx-border-color: #806000;
+}
+
+.theme-yellow .label {
+    -fx-text-fill: #493900;
+}
